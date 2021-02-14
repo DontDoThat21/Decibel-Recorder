@@ -34,7 +34,7 @@ namespace DecibelRecorder
             switch (item.ItemId)
             {
                 case Resource.Id.navigation_home:
-                    textMessage.SetText(Resource.String.title_home);
+                    // textMessage.SetText(Resource.String.title_home);
                     textMessage.Text = "Home";
                     return true;
 
